@@ -8,6 +8,7 @@ COPY conf.d/default.conf /etc/nginx/conf.d/default.conf
 COPY snippets/ssl-params.conf /etc/nginx/snippets/ssl-params.conf
 
 # customizable
+COPY snippets/backend.conf /etc/nginx/snippets/backend.conf
 COPY snippets/ssl.conf /etc/nginx/snippets/ssl.conf
 
 EXPOSE 443
