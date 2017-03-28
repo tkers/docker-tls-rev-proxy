@@ -3,7 +3,7 @@
 ## Build
 
 ```bash
-docker build -t tlsrevproxy .
+./build.sh
 ```
 
 ## Run
